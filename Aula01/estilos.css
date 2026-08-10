@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: green;
+}
+
+strong {
+    color: rgb(24, 199, 24);
+}
+
+.info {
+    border: solid rgb(2, 105, 2) 1px;
+    border-radius: 10px;
+    padding: 5px;
+    color: rgb(2, 105, 2);
+    background-color: rgb(214, 250, 214);
+}
+
+.container {
+    border: solid lightgreen 1px;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+    background-color: white;
+    gap: 20px;
+    box-shadow: 4px 6px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.meio input {
+    border: solid grey 1px;
+    border-radius: 5px;
+    padding: 8px;
+    width: 300px;
+}
+
+.meio button {
+    border: solid grey 1px;
+    border-radius: 5px;
+    padding: 8px;
+    width: 318px;
+    background-color: green;
+    color: white;
+}
+
+.meio {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.outros {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagem {
+    width: 30%;
+}
