@@ -1,66 +1,77 @@
-body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: green;
+body { 
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    background-color: green; 
+    padding: 20px; 
+    box-sizing: border-box;
+} 
+
+*, *::before, *::after {
+    box-sizing: border-box;
 }
 
-strong {
-    color: rgb(24, 199, 24);
-}
+strong { 
+    color: rgb(24, 199, 24); 
+} 
 
-.info {
-    border: solid rgb(2, 105, 2) 1px;
-    border-radius: 10px;
-    padding: 5px;
-    color: rgb(2, 105, 2);
-    background-color: rgb(214, 250, 214);
-}
+.info { 
+    border: solid rgb(2, 105, 2) 1px; 
+    border-radius: 10px; 
+    padding: 8px; 
+    color: rgb(2, 105, 2); 
+    background-color: rgb(214, 250, 214); 
+    text-align: center; 
+} 
 
-.container {
-    border: solid lightgreen 1px;
-    border-radius: 20px;
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 50%;
-    background-color: white;
-    gap: 20px;
-    box-shadow: 4px 6px 4px 6px rgba(0, 0, 0, 0.1);
-}
+.container { 
+    border: solid lightgreen 1px; 
+    border-radius: 20px; 
+    padding: 20px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
+    background-color: white; 
+    gap: 20px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+} 
 
-.meio input {
-    border: solid grey 1px;
-    border-radius: 5px;
-    padding: 8px;
-    width: 300px;
-}
+.meio { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+    width: 100%; 
+} 
 
-.meio button {
-    border: solid grey 1px;
-    border-radius: 5px;
-    padding: 8px;
-    width: 318px;
-    background-color: green;
-    color: white;
-}
+.meio input, .meio button { 
+    border: solid grey 1px; 
+    border-radius: 5px; 
+    padding: 10px; 
+    width: 100%; 
+    font-size: 16px; 
+} 
 
-.meio {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
+.meio button { 
+    background-color: green; 
+    color: white; 
+    cursor: pointer;
+} 
 
-.outros {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
+.outros { 
+    display: flex; 
+    align-items: center; 
+    flex-direction: column; 
+    width: 100%;
+} 
 
-.imagem {
-    width: 30%;
+.imagem { 
+    width: 100%; 
+    max-width: 120px; 
+    height: auto; 
 }
